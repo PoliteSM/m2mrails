@@ -1,13 +1,6 @@
 GIT
-  remote: git://github.com/tongueroo/lighthouse-api.git
-  revision: 033c8cd4c4126ff990e393a39f15883a1bc69a3d
-  specs:
-    lighthouse-api (2.0.2)
-      activeresource (>= 3.0.0)
-      activesupport (>= 3.0.0)
-
-PATH
-  remote: ../m2mhub
+  remote: git://github.com/heedspin/m2mhub.git
+  revision: d3cbd4afba74963c0b638ba9dd73b5e2663c50c6
   specs:
     m2mhub (13.0.2)
       active_hash (~> 1.0.0)
@@ -19,11 +12,20 @@ PATH
       rails (= 3.2.13)
       spreadsheet (= 0.8.4)
 
-PATH
-  remote: ../plutolib
+GIT
+  remote: git://github.com/heedspin/plutolib.git
+  revision: c60c5b0b03c1c8aa07682bab94d0b62e5f28170a
   specs:
     plutolib (1.2.1)
       active_hash (~> 1.0.0)
+
+GIT
+  remote: git://github.com/tongueroo/lighthouse-api.git
+  revision: 033c8cd4c4126ff990e393a39f15883a1bc69a3d
+  specs:
+    lighthouse-api (2.0.2)
+      activeresource (>= 3.0.0)
+      activesupport (>= 3.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -93,7 +95,7 @@ GEM
     delayed_job_active_record (0.4.4)
       activerecord (>= 2.1.0, < 4)
       delayed_job (~> 3.0)
-    ember-data-source (0.13)
+    ember-data-source (0.14)
       ember-source
     ember-rails (0.13.0)
       active_model_serializers
@@ -124,8 +126,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.24)
-    multi_json (1.7.9)
+    mime-types (1.25)
+    multi_json (1.8.0)
     mysql (2.8.1-x86-mingw32)
     nokogiri (1.5.4-x86-mingw32)
     paperclip (2.7.5)

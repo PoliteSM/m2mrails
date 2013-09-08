@@ -23,17 +23,17 @@ gem 'json'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-if File.exists?('../m2mhub')
-  gem 'm2mhub', :path => '../m2mhub'
-else
+#if File.exists?('../m2mhub')
+#  gem 'm2mhub', :path => '../m2mhub'
+#else
   gem 'm2mhub', :git => 'git://github.com/heedspin/m2mhub.git'
-end
+#end
 
-if File.exists?('../plutolib')
-  gem 'plutolib', :path => '../plutolib'
-else
+#if File.exists?('../plutolib')
+#  gem 'plutolib', :path => '../plutolib'
+#else
   gem 'plutolib', :git => 'git://github.com/heedspin/plutolib.git'
-end
+#end
 
 group :assets do
   gem 'sass-rails',   "~> 3.2.3"
