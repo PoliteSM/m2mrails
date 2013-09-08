@@ -27,7 +27,7 @@
  # From Tim Harrison - to get m2mHub running
 development:
   encoding: utf8
-  adapter: mysql
+  adapter: mysql2
   database: m2mRails_dev
   pool: 5
   timeout: 5000
@@ -47,7 +47,7 @@ development_m2m:
 
 production:
   encoding: utf8
-  adapter: mysql
+  adapter: mysql2
   database: <%= ENV['RDS_DB_NAME'] %>
   username: <%= ENV['RDS_USERNAME'] %>
   password: <%= ENV['RDS_PASSWORD'] %>
