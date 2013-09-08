@@ -216,6 +216,7 @@ DEPENDENCIES
   nokogiri (= 1.5.4)
   paperclip (~> 2.7.5)
   plutolib!
+  rack (= 1.4.5)
   rake (= 10.1.0)
   ruby_parser
   sass-rails (~> 3.2.3)

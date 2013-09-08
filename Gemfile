@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'rack', '1.4.5'
 gem 'rake', '10.1.0'
 gem 'formtastic', '2.2.1'
 gem 'airbrake'
