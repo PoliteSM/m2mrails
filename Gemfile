@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'rake', '10.1.0'
 gem 'formtastic', '2.2.1'
 gem 'airbrake'
 gem 'delayed_job_active_record', '~> 0.4.4'
-gem 'lighthouse-api', :git => 'https://github.com/tongueroo/lighthouse-api.git'
+gem 'lighthouse-api', :git => 'git://github.com/tongueroo/lighthouse-api.git'
 gem 'active_hash'
 gem 'authlogic', '3.3.0'
 gem 'will_paginate', '~> 3.0.4'
