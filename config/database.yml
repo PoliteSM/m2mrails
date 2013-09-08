@@ -31,35 +31,36 @@ development:
   database: m2mRails_dev
   pool: 5
   timeout: 5000
-  username: xxxx
-  password: xxxxxxxx
+  username: root
+  password: password
 
 development_m2m:
   adapter: sqlserver
   mode: dblib
   host: 192.168.2.2
   tds_version: 70
-  database: xxxxxxx
-  username: xxx
-  password: xxxxxxx
+  database: M2MDATA99
+  username: sa
+  password: password
   timeout: 5000
   encoding: utf8
 
 production:
   encoding: utf8
   adapter: mysql
-  database: lxdhub_staging
-  pool: 5
-  timeout: 5000
-  username: root
+  database: <%= ENV['RDS_DB_NAME'] %>
+  username: <%= ENV['RDS_USERNAME'] %>
+  password: <%= ENV['RDS_PASSWORD'] %>
+  host: <%= ENV['RDS_HOSTNAME'] %>
+  port: <%= ENV['RDS_PORT'] %>
 
 production_m2m:
   adapter: sqlserver
   mode: dblib
-  host: mysqlserver.hostname
+  host: 50.17.47.184
   tds_version: 70
-  database: my_production_database
-  username: sa
-  password: xyz
+  database: M2MDATA99
+  username: m2m-rails-user
+  password: password123##
   timeout: 5000
   encoding: utf8
