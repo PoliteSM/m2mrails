@@ -129,6 +129,7 @@ GEM
     mime-types (1.25)
     multi_json (1.8.0)
     mysql (2.8.1-x86-mingw32)
+    mysql2 (0.3.13)
     nokogiri (1.5.4-x86-mingw32)
     paperclip (2.7.5)
       activerecord (>= 2.3.0)

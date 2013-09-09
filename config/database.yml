@@ -27,7 +27,7 @@
  # From Tim Harrison - to get m2mHub running
 development:
   encoding: utf8
-  adapter: mysql2
+  adapter: mysql
   database: m2mRails_dev
   pool: 5
   timeout: 5000
