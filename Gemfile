@@ -22,7 +22,6 @@ gem 'ember-source', '1.0.0.rc6.2'
 gem 'json'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
-gem 'mysql2'
 
 #if File.exists?('../m2mhub')
 #  gem 'm2mhub', :path => '../m2mhub'
