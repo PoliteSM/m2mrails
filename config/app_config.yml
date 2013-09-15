@@ -1,19 +1,19 @@
 # Override values from m2mhub_config.yml or add application-specific configs.
 app_config:
   shared: &shared
-    email_name: LXD WebBot
-    email_address: webmin@lxdinc.com
-    sales_email_name: LXD Sales
-    sales_email_address: sales@lxdinc.com
-    email_domain: lxdinc.com
-    website: www.lxdinc.com
-    short_name: LXD
-    long_name: LXD Research &amp; Display
+    email_name: Demo WebBot
+    email_address: demo@schrothsystems.com
+    sales_email_name: Demo Sales
+    sales_email_address: demo@schrothsystems.com
+    email_domain: schrothsystems.com
+    website: www.schrothsystems.com
+    short_name: Demo
+    long_name: Demo Research &amp; Display
     logo_image: logo.gif
     quote_logo_image: quote_logo.jpg
     use_boms: false
-    production_hostname: m2mhub.lxdinc.com
-    epoch_year: 2010
+    production_hostname: m2mhub.demo.com
+    epoch_year: 2013
     fob_groups:
       - id: 1
         name: Raleigh
@@ -42,11 +42,11 @@ app_config:
     menu_selected:
   development:
     <<: *shared
-    hostname: staging.lxdinc.com
+    hostname: staging.demo-schrothsystems.com
     inspection_task_default_lighthouse_user: 164362 # tim
   production:
     <<: *shared
-    hostname: m2mhub.lxdinc.com
+    hostname: m2mhub.demo-schrothsystems.com
     inspection_task_default_lighthouse_user: 164371 # jim
   test:
     <<: *shared
